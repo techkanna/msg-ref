@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Messanger</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <div class="name">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            placeholder="Enter Your Name"
+            name="name"
+            id="name"
+          />
+          <br /><br />
+        </div>
+        <textarea
+          name="message"
+          placeholder="Enter Your message"
+          id="message"
+          cols="10"
+          rows="4"
+        ></textarea>
+        <input type="submit" value="submit message" />
+      </form>
+      <br /><br />
+      <hr />
+      <br /><br />
+      <div class="messages"></div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

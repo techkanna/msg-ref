@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+form {
+  font-size: 2rem;
+}
+
+form .name {
+  margin: 0 auto;
+  width: 50%;
+}
+
+form .name label {
+  font-size: 1rem;
+}
+
+form .name input[type='text'] {
+  padding: 0.5rem;
+  font-size: 1.7rem;
+  width: 100%;
+}
+
+form textarea {
+  display: block;
+  margin: 0 auto;
+  font-size: 1.7rem;
+  width: 50%;
+}
+
+form input[type='submit'] {
+  display: block;
+  width: 50%;
+  margin: 1rem auto;
+  font-size: 1.3rem;
+  padding: 0.4rem;
+  color: #fff;
+  background-color: rgb(9, 62, 160);
+  border: none;
+  outline: none;
+}
+
+.messages .msg {
+  border-bottom: 1px solid rgb(77, 70, 70);
+  margin: 1rem;
+  position: relative;
+}
+
+.messages .msg small {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
